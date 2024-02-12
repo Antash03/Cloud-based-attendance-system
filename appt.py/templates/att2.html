@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <style>
+        /* ... (styles) ... */
+    </style>
+</head>
+<body>
+    <h2>Welcome, Teacher!</h2>
+
+    <!-- Mark Attendance Form -->
+    <h3>Mark Attendance</h3>
+    <form id="markAttendanceForm">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId" required>
+        <br>
+        <label for="status">Status:</label>
+        <select id="status" name="status" required>
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+            <!-- Add other status options as needed -->
+        </select>
+        <br>
+        <button type="button" onclick="markAttendance()">Mark Attendance</button>
+    </form>
+
+    <!-- View Attendance Section -->
+    <h3>View Attendance</h3>
+    <form id="viewAttendanceForm"><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Teacher Dashboard</title>
+            <style>
+                /* ... (styles) ... */
+            </style>
+        </head>
+        <body>
+            <h2>Welcome, Teacher!</h2>
+        
+            <!-- Mark Attendance Form -->
+            <h3>Mark Attendance</h3>
+            <form id="markAttendanceForm">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="studentId" required>
+                <br>
+                <label for="status">Status:</label>
+                <select id="status" name="status" required>
+                    <option value="Present">Present</option>
+                    <option value="Absent">Absent</option>
+                    <!-- Add other status options as needed -->
+                </select>
+                <br>
+                <button type="button" onclick="markAttendance()">Mark Attendance</button>
+            </form>
+        
+            <!-- View Attendance Section -->
+            <h3>View Attendance</h3>
+            <form id="viewAttendanceForm">
+                <label for="viewStudentId">Student ID:</label>
+                <input type="text" id="viewStudentId" name="viewStudentId" required>
+                <button type="button" onclick="viewAttendance()">View Attendance</button>
+            </form>
+        
+            <div id="attendanceRecords"></div>
+        
+            <a href="/att1.html">Go back to Teacher Login</a>
+        
+            <script>
+                // ... (Optional JavaScript if needed)
+            </script>
+        </body>
+        </html>
+        
+        <label for="viewStudentId">Student ID:</label>
+        <input type="text" id="viewStudentId" name="viewStudentId" required>
+        <button type="button" onclick="viewAttendance()">View Attendance</button>
+    </form>
+
+    <div id="attendanceRecords"></div>
+
+    <a href="/teacher-login.html">Go back to Teacher Login</a>
+
+    <script>
+        // ... (Optional JavaScript if needed)
+    </script>
+</body>
+</html>
